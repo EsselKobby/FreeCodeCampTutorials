@@ -45,10 +45,3 @@ function lookUpProfile(name, prop) {
     return "No such contact";
 }
 
-// Running the test cases
-console.log(lookUpProfile("Kristian", "lastName")); // Should return "Vos"
-console.log(lookUpProfile("Sherlock", "likes")); // Should return ["Intriguing Cases", "Violin"]
-console.log(lookUpProfile("Harry", "likes")); // Should return an array
-console.log(lookUpProfile("Bob", "number")); // Should return "No such contact"
-console.log(lookUpProfile("Bob", "potato")); // Should return "No such contact"
-console.log(lookUpProfile("Akira", "address")); // Should return "No such property"
